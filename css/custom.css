@@ -1,0 +1,86 @@
+.panel {
+	width: 98%;
+	max-width: 320px;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+
+#btn-connect {
+	margin-top: 16px;
+}
+
+.file-selector {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 620px;
+	padding: 16px;
+	margin-top: 16px;
+
+}
+
+legend {
+	text-align: center;
+}
+
+#drag-area {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em 0;
+	margin: 1em 0;
+	color: #555;
+	border: 2px dashed #555;
+	border-radius: 7px;
+	cursor: default;
+}
+
+#drag-area.active {
+	color: #337ab7;
+	border-color: #337ab7;
+	border-style: solid;
+}
+
+/*  from css-tricks  */
+.dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/*.panel {
+	width: 48%;
+	max-width: 620px;
+}
+*/
+.selected-files {
+	margin: 0 auto;
+	max-width: 620px;
+	width: 100%;
+}
+
+.btn-start-send {
+	margin-top: 16px;
+}
+
+.inline {
+    display: inline-block;
+    float: none;
+}
+
+#selectedFiles {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
