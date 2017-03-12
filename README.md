@@ -14,6 +14,7 @@ The memory issue can be solved by reading the file peice by peice using file.sli
 ## Usage
 
 (1) Move to the folder node-server
+
 (2) Make sure you have the WebSocket model installed
 
 > sudo npm install --save ws
@@ -31,6 +32,7 @@ or
 > node server.js
 
 (5) Open the file js/client.js, and change line 7 to point to your server's ip address. If you are using the same computer you don't need to do this step.
+
 From:
 
 > var connection = new WebSocket('ws://localhost:8888');
@@ -40,6 +42,7 @@ To:
 > var connection = new WebSocket('ws://MACHINE_IP_ADDRESS:8888');
 
 (6) Open the file index.html in two browsers in different computers.
+
 (7) Now, you can send and receive files. You should see something similar to the screenshot.
 
 
