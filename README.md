@@ -13,16 +13,16 @@ The memory issue can be solved by reading the file peice by peice using file.sli
 
 ## Usage
 
-### Move to the folder node-server
-### Make sure you have the WebSocket model installed
+(1) Move to the folder node-server
+(2) Make sure you have the WebSocket model installed
 
 > sudo npm install --save ws
 
-### You may need to run
+(3) You may need to run
 
 > sudo npm install -d
 
-### Move to the folder node-server, and run the file server.js with node.js using a command similar to:
+(4) Move to the folder node-server, and run the file server.js with node.js using a command similar to:
 
 > nodejs server.js
 
@@ -30,7 +30,7 @@ or
 
 > node server.js
 
-### Open the file js/client.js, and change line 7 to point to your server's ip address. If you are using the same computer you don't need to do this step.
+(5) Open the file js/client.js, and change line 7 to point to your server's ip address. If you are using the same computer you don't need to do this step.
 From:
 
 > var connection = new WebSocket('ws://localhost:8888');
@@ -39,7 +39,7 @@ To:
 
 > var connection = new WebSocket('ws://MACHINE_IP_ADDRESS:8888');
 
-### Open the file index.html in two browsers in different computers.
+(6) Open the file index.html in two browsers in different computers.
 ### Now, you can send and receive files. You should see something similar to the screenshot.
 
 
