@@ -40,7 +40,7 @@ To:
 > var connection = new WebSocket('ws://MACHINE_IP_ADDRESS:8888');
 
 (6) Open the file index.html in two browsers in different computers.
-### Now, you can send and receive files. You should see something similar to the screenshot.
+(7) Now, you can send and receive files. You should see something similar to the screenshot.
 
 
 ![Alt text](webrtc_file_transfer_screenshot.png?raw=true "Interface")
