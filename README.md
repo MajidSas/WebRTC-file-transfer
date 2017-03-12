@@ -39,7 +39,7 @@ From:
 
 To:
 
-> var connection = new WebSocket('ws://MACHINE_IP_ADDRESS:8888');
+> var connection = new WebSocket('ws://SERVER_IP_ADDRESS:8888');
 
 (6) Open the file index.html in two browsers in different computers.
 
